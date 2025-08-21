@@ -1,0 +1,82 @@
+/* Unique Cyber Security Theme */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0a0f1a;
+    color: #e0e6ed;
+}
+header {
+    background: linear-gradient(90deg, #0f2027, #2c5364);
+    padding: 2rem 0 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #00ffe7;
+    text-shadow: 0 0 8px #00ffe7;
+}
+header h2 {
+    margin: 0.2rem 0 1rem 0;
+    font-size: 1.2rem;
+    color: #e0e6ed;
+    font-weight: 400;
+}
+nav {
+    margin-top: 1rem;
+}
+nav a {
+    color: #00ffe7;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ff00c8;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.section {
+    margin: 2.5rem 0;
+    padding: 2rem;
+    background: rgba(20, 30, 50, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,255,231,0.05);
+}
+.section h3 {
+    color: #00ffe7;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+ul {
+    padding-left: 1.2rem;
+}
+.job h4 {
+    margin-bottom: 0.2rem;
+    color: #ff00c8;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #101522;
+    color: #888;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}
+@media (max-width: 600px) {
+    .container, .section {
+        width: 98%;
+        padding: 1rem;
+    }
+    nav a {
+        margin: 0 0.5rem;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
